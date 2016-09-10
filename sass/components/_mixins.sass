@@ -1,0 +1,27 @@
+=social-sprite-horiz($img, $height, $width, $padding, $second, $third, $fourth, $fifth, $sixth)
+	padding: 0
+	&:last-child
+		padding-right: 0
+	li
+		display: inline-block
+		padding-right: $padding
+	a
+		display: block
+		height: $height
+		width: $width
+		background: url($img) 0 0 no-repeat
+		opacity: 0.8
+		&:hover
+			opacity: 1
+	#first
+		background-position: 0 0
+	#second
+		background-position: $second 0
+	#third
+		background-position: $third 0
+	#fourth
+		background-position: $fourth 0
+	#fifth
+		background-position: $fifth 0
+	#sixth
+		background-position: $sixth 0
