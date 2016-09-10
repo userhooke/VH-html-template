@@ -1,1 +1,27 @@
-﻿
+﻿$form-color: #333 !default
+$form-font-size: 16px !default
+$form-bg: #ddd !default
+$form-border: 1px solid $form-bg !default
+$form-padding: 10px 20px !default
+$form-border-radius: 4px !default
+
+=form-variants($color, $bg, $border)
+  color: $color
+  background: $bg
+  border-color: $border
+
+
+=form-size($font-size, $padding, $radius: $form-border-radius)
+  font-size: $font-size
+  padding: $padding
+  border-radius: $radius
+
+.form
+  display: inline-block
+  font-weight: normal
+  color: $form-color
+  font-size: $form-font-size
+  background: $form-bg
+  padding: $form-padding
+  border: $form-border
+  border-radius: $form-border-radius
