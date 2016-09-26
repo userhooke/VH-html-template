@@ -745,7 +745,7 @@ h6, .h7 {
   .btn:hover {
     color: #333;
     background: #ddd;
-    border: #ddd; }
+    border-color: #ddd; }
 
 .form-group {
   margin-bottom: 15px; }
