@@ -1,2 +1,3 @@
-# VH-html-template
-html/css starter kit
+# Training project for Spalah Advanced HTML/CSS course
+
+![mockup](mockup.jpg)
