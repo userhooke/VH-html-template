@@ -41,6 +41,6 @@ $btn-border-color-hover: $btn-bg !default;
   &:hover {
     color: $btn-color-hover;
     background: $btn-bg-hover;
-    border: $btn-border-color-hover;
+    border-color: $btn-border-color-hover;
   }
 }
