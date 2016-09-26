@@ -464,14 +464,6 @@ html {
 *, :before, :after {
   box-sizing: inherit; }
 
-.cf {
-  *zoom: 1; }
-  .cf:before, .cf:after {
-    content: " ";
-    display: table; }
-  .cf:after {
-    clear: both; }
-
 body {
   margin: 0; }
 
@@ -534,7 +526,13 @@ img {
       opacity: 0.5; }
 
 .row {
-  margin: 0 -10px; }
+  margin: 0 -10px;
+  *zoom: 1; }
+  .row:before, .row:after {
+    content: " ";
+    display: table; }
+  .row:after {
+    clear: both; }
 
 [class*="col-"] {
   padding: 0 10px;
