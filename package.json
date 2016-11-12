@@ -1,0 +1,29 @@
+{
+  "name": "spalah-html-template",
+  "version": "1.0.0",
+  "description": "![index](index.jpg)",
+  "main": "index.html",
+  "scripts": {
+    "localhost": "browser-sync start --server --files 'index.html, css/all.css'",
+    "sass:watch": "sass --watch sass:css",
+    "sass": "sass sass/all.sass css/all.css",
+    "scss:watch": "sass --watch scss:css",
+    "scss": "sass scss/all.scss css/all.css",
+    "stylelint": "stylelint css/all.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/userhooke/spalah-html-template.git"
+  },
+  "keywords": [],
+  "author": "Vladimir Hooke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/userhooke/spalah-html-template/issues"
+  },
+  "homepage": "https://github.com/userhooke/spalah-html-template#readme",
+  "devDependencies": {
+    "stylelint": "^7.5.0",
+    "stylelint-config-standard": "^14.0.0"
+  }
+}
