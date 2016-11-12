@@ -20,6 +20,7 @@ npm run scss
 Stylelint
 ```
 npm run stylelint
+npm run stylelint-scss
 ```
 
 Convert sass to scss or vice versa

@@ -10,6 +10,7 @@
     "scss:watch": "sass --watch scss:css",
     "scss": "sass scss/all.scss css/all.css",
     "stylelint": "stylelint css/all.css",
+    "stylelint-scss": "stylelint scss/**/*.scss --syntax scss",
     "sass-scss": "sass-convert sass/ scss/ --from sass --to scss --recursive",
     "scss-sass": "sass-convert scss/ sass/ --from scss --to sass --recursive",
     "pug:watch": "pug pug/render --watch --pretty --out .",
