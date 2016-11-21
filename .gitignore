@@ -43,6 +43,8 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+.idea
+
 ### Sass ###
 .sass-cache/
 *.css.map
